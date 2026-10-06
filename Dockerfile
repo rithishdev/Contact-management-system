@@ -10,6 +10,4 @@ COPY .env ./
 
 COPY src/ ./src/
 
-EXPOSE 5000
-
 CMD ["node", "src/app.js"]
